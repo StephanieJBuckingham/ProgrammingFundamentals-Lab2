@@ -29,7 +29,7 @@ public class DistCalc {
 		// Calculate distance between the two points
 		double distance;
 		distance = (Math.sqrt((Math.pow((x2 - x1), 2) + (Math.pow(y2 - y1, 2)))));
-		DecimalFormat df = new DecimalFormat("###.###");
+		DecimalFormat df = new DecimalFormat("#.###");
 
 		// Print distance
 		System.out.println("The distance between the two points is " + (df.format(distance)));

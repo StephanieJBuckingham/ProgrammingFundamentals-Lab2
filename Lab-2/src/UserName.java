@@ -21,9 +21,9 @@ public class UserName {
 		// Generate random number ranging from 10-99
 		int y;
 		Random gen = new Random();
-		y = (10 + gen.nextInt(99 - 10));
+		y = (gen.nextInt(90)+ 10);
 
 		// Print out user name
-		System.out.println(lastname.substring(0, 4) + firstname.charAt(0) + y);
+		System.out.println("Your username is: " +lastname.substring(0, 4) + firstname.charAt(0) + y);
 	}
 }

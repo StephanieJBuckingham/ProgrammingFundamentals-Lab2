@@ -14,9 +14,7 @@ public class FloatEqu {
 		// Determine if equal
 		if (x == y) {
 			System.out.println("EQUAL");
-		}
-
-		else {
+		} else {
 			System.out.println("NOT EQUAL");
 		}
 
